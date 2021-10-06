@@ -1,15 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="32c70c2d-f9e2-493d-9e01-0dd17879062e" name="Default Changelist" comment="Erstellung der Test Klasse">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/BlackBoxTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codesSE2021.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codesSE2021.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="32c70c2d-f9e2-493d-9e01-0dd17879062e" name="Default Changelist" comment="Fertigstellung der Übung 1 mit BlackBoxTest">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/org/hbrs/se1/ws21/uebung1/control/Factory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/hbrs/se1/ws21/uebung1/control/Factory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/hbrs/se1/ws21/uebung1/control/GermanTranslator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/hbrs/se1/ws21/uebung1/control/GermanTranslator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/hbrs/se1/ws21/uebung1/control/Translator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/hbrs/se1/ws21/uebung1/control/Translator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/hbrs/se1/ws21/uebung1/view/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/hbrs/se1/ws21/uebung1/view/Client.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -139,7 +133,14 @@
       <option name="project" value="LOCAL" />
       <updated>1633517395948</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Fertigstellung der Übung 1 mit BlackBoxTest">
+      <created>1633528473397</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1633528473397</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -168,7 +169,8 @@
     <MESSAGE value="Bereitstellung einer Create-Methode" />
     <MESSAGE value="2. Methode von Factory" />
     <MESSAGE value="Erstellung der Test Klasse" />
-    <option name="LAST_COMMIT_MESSAGE" value="Erstellung der Test Klasse" />
+    <MESSAGE value="Fertigstellung der Übung 1 mit BlackBoxTest" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fertigstellung der Übung 1 mit BlackBoxTest" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Software_Engineering_1$TestKlasse_Assembler.ic" NAME="TestKlasse$Assembler Coverage Results" MODIFIED="1633524808123" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />

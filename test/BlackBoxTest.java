@@ -10,7 +10,7 @@ public class BlackBoxTest {
     }
 
     public void test(){
-        // Übersetzung der Zahlen 1 bis 1 einschließlich 10
+        // Übersetzung der Zahlen 1 bis einschließlich 10
         client.display( 1 );
         client.display( 2 );
         client.display( 3 );
@@ -22,7 +22,7 @@ public class BlackBoxTest {
         client.display( 9 );
         client.display( 10 );
 
-        // Übersetzung der Zahlen, die nicht übersetzbar sind
+        // Übersetzung der Zahlen, die nicht übersetzbar werden können
         client.display( 100 );
         client.display( -10 );
     }

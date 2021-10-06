@@ -14,16 +14,17 @@ public class GermanTranslator implements Translator {
 
 	public String translateNumber( int number ) {
 
-		String ergebnis = ""; // erg = Ergebnis vom String
+		String res = ""; // res = result vom String
 
 		try {
 
-			ergebnis = zahlen[number - 1];
+			res = zahlen[number - 1]; // -1 wegen Array Index 0
 
+			// Exception für alle Fälle number < 1 oder > 10
 		} catch (ArrayIndexOutOfBoundsException e) {
-			ergebnis = "Keine Übersetzung der Zahl " + number + " möglich!";
+			res = "Keine Übersetzung der Zahl " + number + " möglich!";
 		}
-			return ergebnis;
+			return res;
 		}
 
 

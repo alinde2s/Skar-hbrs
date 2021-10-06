@@ -1,5 +1,8 @@
 package org.hbrs.se1.ws21.uebung1.control;
 
+/**
+ *  Klasse für Erzeugung der Objekte
+ */
 public class Factory {
 
     public static Translator createGermanTranslator() {
