@@ -3,15 +3,30 @@ package org.hbrs.se1.ws21.uebung1.control;
 public class GermanTranslator implements Translator {
 
 	public String date = "Okt/2021"; // Default-Wert
+	/**
+	 * String Array zur Beschreibung der Zahlen
+	 */
+	private String[] zahlen = {"eins","zwei","drei","vier","fünf","sechs","sieben","acht","neun","zehn"};
 
 	/**
 	 * Methode zur Übersetzung einer Zahl in eine String-Repraesentation
 	 */
-	public String translateNumber( int number ) {
-		// [ihr Source Code aus Übung 1-2]
 
-		return null;
-	}
+	public String translateNumber( int number ) {
+
+		String ergebnis = ""; // erg = Ergebnis vom String
+
+		try {
+
+			ergebnis = zahlen[number - 1];
+
+		} catch (ArrayIndexOutOfBoundsException e) {
+			ergebnis = "Keine Übersetzung der Zahl " + number + " möglich!";
+		}
+			return ergebnis;
+		}
+
+
 		
 	/**
 	 * Objektmethode der Klasse GermanTranslator zur Ausgabe einer Info.
