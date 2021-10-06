@@ -1,11 +1,9 @@
-package test;
-
 import org.hbrs.se1.ws21.uebung1.view.Client;
 
-public class BlackBoxTest {
+class GermanTranslatorTest {
     private Client client;
 
-    public BlackBoxTest() {
+    public GermanTranslatorTest() {
         client = new Client();
     }
 
@@ -26,9 +24,9 @@ public class BlackBoxTest {
         client.display( 100 );
         client.display( -10 );
     }
-        //BlackBoxTest
+    //BlackBoxTest
     public static void main(String[] args) {
-        BlackBoxTest assembler = new BlackBoxTest();
+        GermanTranslatorTest assembler = new GermanTranslatorTest();
         assembler.test();
     }
 }

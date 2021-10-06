@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="32c70c2d-f9e2-493d-9e01-0dd17879062e" name="Default Changelist" comment="Fertigstellung der Übung 1 mit BlackBoxTest">
+    <list default="true" id="32c70c2d-f9e2-493d-9e01-0dd17879062e" name="Default Changelist" comment="Übung 1">
+      <change afterPath="$PROJECT_DIR$/Project Output/test/GermanTranslatorTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/hbrs/se1/ws21/uebung1/control/Factory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/hbrs/se1/ws21/uebung1/control/Factory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/BlackBoxTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,8 +14,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit4 Test Class" />
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -33,9 +35,11 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="jdk.selected.JAVA_MODULE" value="openjdk-17" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/test" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -46,18 +50,33 @@
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
+      <recent name="org.hbrs.se1.ws21.uebung1.control" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="" />
       <recent name="org.hbrs.se1.ws21.uebung1.control" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BlackBoxTest">
+  <component name="RunManager" selected="Application.GermanTranslatorTest">
     <configuration name="Assembler" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="test.Assembler" />
       <module name="codesSE2021" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BlackBoxTest (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.hbrs.se1.ws21.uebung1.control.BlackBoxTest" />
+      <module name="codesSE2021" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.hbrs.se1.ws21.uebung1.control.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -78,15 +97,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestKlasse$Assembler" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TestKlasse$Assembler" />
-      <module name="codesSE2021" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test" />
+    <configuration name="GermanTranslatorTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GermanTranslatorTest" />
       <module name="codesSE2021" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -102,11 +114,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GermanTranslatorTest" />
+        <item itemvalue="JUnit.All in codesSE2021" />
+        <item itemvalue="Application.BlackBoxTest (1)" />
         <item itemvalue="Application.BlackBoxTest" />
         <item itemvalue="Application.Assembler" />
-        <item itemvalue="JUnit.All in codesSE2021" />
-        <item itemvalue="Application.TestKlasse$Assembler" />
-        <item itemvalue="Application.test" />
       </list>
     </recent_temporary>
   </component>
@@ -140,7 +152,14 @@
       <option name="project" value="LOCAL" />
       <updated>1633528473397</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Übung 1">
+      <created>1633533509695</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1633533509695</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -170,7 +189,8 @@
     <MESSAGE value="2. Methode von Factory" />
     <MESSAGE value="Erstellung der Test Klasse" />
     <MESSAGE value="Fertigstellung der Übung 1 mit BlackBoxTest" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fertigstellung der Übung 1 mit BlackBoxTest" />
+    <MESSAGE value="Übung 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Übung 1" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Software_Engineering_1$TestKlasse_Assembler.ic" NAME="TestKlasse$Assembler Coverage Results" MODIFIED="1633524808123" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
