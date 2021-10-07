@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="32c70c2d-f9e2-493d-9e01-0dd17879062e" name="Default Changelist" comment="Übung 1">
-      <change beforePath="$PROJECT_DIR$/.idea/codesSE2021.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codesSE2021.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/Software Engineering 1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test/BlackBoxTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project Output/test/GermanTranslatorTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/GermanTranslatorTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,8 +17,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit5 Test Class" />
         <option value="JUnit4 Test Class" />
+        <option value="JUnit5 Test Class" />
         <option value="Class" />
       </list>
     </option>
@@ -41,11 +44,14 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="org.hbrs.se1.ws21.uebung1.control" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="openjdk-17" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/test/org/hbrs/se1/ws21/uebung1" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -56,14 +62,31 @@
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
+      <recent name="org.hbrs.se1.ws21.uebung1" />
       <recent name="org.hbrs.se1.ws21.uebung1.control" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="org.hbrs.se1.ws21.uebung1" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
-      <recent name="org.hbrs.se1.ws21.uebung1.control" />
       <recent name="" />
+      <recent name="org.hbrs.se1.ws21.uebung1.control" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.GermanTranlatorTest">
+  <component name="RunManager" selected="Application.GermanTranslatorTest">
+    <configuration name="GermanTranlatorTest (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.hbrs.se1.ws21.uebung1.control.GermanTranlatorTest" />
+      <module name="codesSE2021" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.hbrs.se1.ws21.uebung1.control.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="GermanTranlatorTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="test.GermanTranlatorTest" />
       <module name="codesSE2021" />
@@ -78,24 +101,18 @@
       </method>
     </configuration>
     <configuration name="GermanTranslatorTest (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.GermanTranslatorTest" />
+      <option name="MAIN_CLASS_NAME" value="GermanTranslatorTest" />
       <module name="codesSE2021" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GermanTranslatorTest (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.hbrs.se1.ws21.uebung1.control.GermanTranslatorTest" />
+    <configuration name="GermanTranslatorTest$GermanTranlatorTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.hbrs.se1.ws21.uebung1.GermanTranslatorTestClass.GermanTranslatorTest$GermanTranlatorTest" />
       <module name="codesSE2021" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.hbrs.se1.ws21.uebung1.control.*" />
+          <option name="PATTERN" value="org.hbrs.se1.ws21.uebung1.GermanTranslatorTestClass.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,26 +122,24 @@
     </configuration>
     <configuration name="GermanTranslatorTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="GermanTranslatorTest" />
-      <module name="codesSE2021" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="All in codesSE2021" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="codesSE2021" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
+      <module name="Software Engineering 1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="production.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.GermanTranlatorTest" />
-        <item itemvalue="Application.GermanTranslatorTest (2)" />
-        <item itemvalue="Application.GermanTranslatorTest (1)" />
-        <item itemvalue="JUnit.All in codesSE2021" />
         <item itemvalue="Application.GermanTranslatorTest" />
+        <item itemvalue="Application.GermanTranslatorTest (1)" />
+        <item itemvalue="Application.GermanTranslatorTest$GermanTranlatorTest" />
+        <item itemvalue="Application.GermanTranlatorTest (1)" />
+        <item itemvalue="Application.GermanTranlatorTest" />
       </list>
     </recent_temporary>
   </component>
@@ -186,7 +201,28 @@
       <option name="project" value="LOCAL" />
       <updated>1633539805880</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Übung 1">
+      <created>1633539943139</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1633539943139</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Übung 1">
+      <created>1633540012593</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1633540012593</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Übung 1">
+      <created>1633540041443</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1633540041443</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">

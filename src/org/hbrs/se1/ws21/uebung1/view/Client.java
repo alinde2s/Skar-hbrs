@@ -20,7 +20,7 @@ public class Client {
 		// Strenge Implementierung gegen das Interface Translator gewuenscht!
 
 		Translator translator = Factory.createGermanTranslator(); // neuer GermanTranslator
-		String erg = translator.translateNumber(aNumber);
+		String erg = translator.translateNumber(aNumber);		// erg = Ergebnis
 		System.out.println("Das Ergebnis an dieser Stelle lautet: " + erg);
 
 	}
